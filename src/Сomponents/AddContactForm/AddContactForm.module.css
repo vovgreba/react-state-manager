@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.addContactForm_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: rgba(195, 197, 202, 0.5);
+  height: 100vh;
+}
+
+.addContactForm_block {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  position: relative;
+  z-index: 10;
+  background-color: #fff;
+  width: 450px;
+  padding: 25px 20px;
+  border-radius: 20px;
+}
+
+.addContactForm_close {
+  position: absolute;
+  top: 31px;
+  right: 19px;
+  width: 22px;
+  cursor: pointer;
+}
+.addContactForm_avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #D2CFFA 0%, #BBB6FD 100%);
+  margin: 0 auto 16px;
+}
+.addContactForm_avatar img {
+  width: 48px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form_contact {
+  width: 50%;
+}
+.contactForm_contactName {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 18px;
+  margin-bottom: 10px;
+}
+.contactForm_telephone {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.contactForm_manager {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.contactForm_shape_image {
+  margin-left: 8px;
+  width: 22px;
+  cursor: pointer;
+}
+.contactForm_button {
+  font-family: 'Roboto';
+  font-weight: 700;
+  border-radius: 10px;
+  background: #282828;
+  font-size: 16px;
+  padding: 12px 32px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
